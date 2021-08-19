@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Playfair Display', 'Lora', serif;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  max-width: 1920px;
+  background-image: url(/dog/images/background/Snowandbluesky.jpg);
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 960px;
+  height: 100%;
+  margin: 20px auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.malamute {
+  text-align: center;
+}
+
+.malamute__heading,
+h2 {
+  font-size: 48px;
+  letter-spacing: 1.5px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 1px -1px 1px rgba(65, 65, 65, 0.65);
+}
+
+.malamute__image {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.malamute__image figcaption {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.malamute__text {
+  font-size: 32px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.malamute__text span {
+  font-style: italic;
+  color: #800000;
+}
+
+.malamute a {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-style: italic;
+  color: #800000;
+}
+
+.malamute button {
+  width: 150px;
+  height: 50px;
+  border: #800000 1px solid;
+  border-radius: 10px;
+  background-color: #ffebcd;
+}
